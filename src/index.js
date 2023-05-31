@@ -9,7 +9,7 @@ const app = express(); // calling express
 app.use(bodyparser.json());
 app.use(bodyparser.urlencoded({ extended: true }));
 
-const PORT = 4000;
+const PORT = 3000;
 
 //---------------------------connecting to mongoDB--------------------------------//
 mongoose
